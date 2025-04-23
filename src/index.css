@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+html,
+body,
+#root,
+.reveal {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.reveal .slides {
+    height: 100%;
+}
